@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 import { BOT_TOKEN } from "./config.js";
 import cron from "node-cron";
 
-const myID = "467142836";
+const myID = "...ID...";
 const cryptoAssets = ["BTC_USDT", "ETH_USDT", "KNG_USDT", "SOL_USDT"];
 
 const bot = new Telegraf(BOT_TOKEN);
